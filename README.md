@@ -11,8 +11,9 @@ It uses ctypes to access keyboard events.
 from ctypes import *
 ```
 
-The program needs hex codes to know what keys to work with and after a bit of googling and trying to figure out the right codes, I got frustrated and downloaded a program to get the hex codes directly. The program I used is called "KeyboardStateView". Just google the program name or use this link https://www.nirsoft.net/utils/keyboard_state_view.html
-Also what made my search a bit harder is that I have a finnish/swedish keyboard. So if you have a different keyboard layout, you need to change some keys.
+The program needs hex codes to know what keys to work with and after a bit of googling and trying to figure out the right codes, I got frustrated and downloaded a program to get the hex codes directly. The program I used is called "KeyboardStateView".<br> Just google the program name or use this link https://www.nirsoft.net/utils/keyboard_state_view.html <br>
+
+Also what made my search a bit harder is that I have a finnish/swedish keyboard.<br> So if you have a different keyboard layout, you need to change some keys.
 (the character keys should be the same)
 ```
 class Key:
@@ -67,9 +68,9 @@ You can copy the content of main.py, download zip file or just use command line 
 ```
 git clone https://github.com/awkwardAndroid/OpenSettingsDevices
 ```
-Then just run main.py.
+Then just cd or open the folder and python main.py
 
-Because I wanted to make this one click, create a run.BAT file in the same directory as the main.py file is and write:<br> @ECHO OFF python main.py <br>inside of it
+Because I wanted to make this one click, create a run.BAT file in the same directory as the main.py file is and write:<br> @ECHO OFF python main.py <br>
 ```
 @ECHO OFF
 
