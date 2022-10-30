@@ -59,3 +59,7 @@ def write(hex_list):
 ```
 
 And thats basically it!
+
+
+----
+## How to install 
