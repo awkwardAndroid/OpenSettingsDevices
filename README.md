@@ -63,3 +63,16 @@ And thats basically it!
 
 ----
 ## How to install 
+You can copy the content of main.py, download zip file or just use command line and:
+```
+git clone https://github.com/awkwardAndroid/OpenSettingsDevices
+```
+Then just run main.py.
+
+Because I wanted to make this one click, create a run.BAT file in the same directory as the main.py file is and write:<br> @ECHO OFF python main.py <br>inside of it
+```
+@ECHO OFF
+
+python main.py
+```
+Then create a shortcut and paste it on the desktop and there you have it, on click open bluetooth & devices.
